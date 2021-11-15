@@ -9,6 +9,11 @@ h2{
     text-align:left;
 }
 
+h3 {
+    font-family:"Space Mono";
+    text-align: left;
+}
+
 hr {
     color:#5C2B2D;
     background-color:#996666;
@@ -27,21 +32,42 @@ a:visited{
     color:#5C2B2D;
 }
 
-.projects {
+.container{
+    display: flex;
     align-items: center;
+    justify-content: center
+    padding:5px;
+    margin:40px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.image{
+    flex-basis: 40%;
+}
+
+.text {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+
+.centered-container {
+    background-color: white;
     justify-content: center;
     display:flex;
     flex-wrap:wrap;
 }
 
-.project {
-    background-color: white;
+.content {
+    background-color:white;
     width:90%;
     padding:10px;
     margin:10px;
 }
 
-.project img {
+.content img {
     align-content: flex-end;
     width:250px;
     margin-right:20px;
@@ -134,3 +160,23 @@ a:visited{
     border-bottom: 5px solid;
     border-left: 5px solid transparent;
 }
+
+.button {
+    border: none;
+    background-color: #5C2B2D;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family:"Roboto Mono";
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #996666;
+    color: white;
+}
+

@@ -6,7 +6,7 @@ h1 {
 
 h2{
     font-family: "Space Mono";
-    text-align:left;
+    text-align:center;
 }
 
 h3 {
@@ -20,6 +20,7 @@ hr {
 }
 
 p{
+    align-items:left;
     font-family: "Roboto Mono";
 }
 
@@ -35,8 +36,8 @@ a:visited{
 .container{
     display: flex;
     align-items: center;
-    justify-content: center
-    padding:5px;
+    justify-content: center;
+    padding: 5px;
     margin:40px;
 }
 
@@ -45,20 +46,27 @@ img {
 }
 
 .image{
+    max-width: 300px;
     flex-basis: 40%;
 }
 
 .text {
     font-size: 20px;
-    padding-left: 20px;
+    padding-left: 30px;
   }
 
-.centered-container {
+.section-header {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*.centered-container {
     background-color: white;
     justify-content: center;
     display:flex;
     flex-wrap:wrap;
-}
+}*/
 
 .content {
     background-color:white;

@@ -42,11 +42,11 @@ a:visited{
 }
 
 img {
-    max-width: 300px;
+    max-width: 350px;
 }
 
 .image{
-    max-width: 300px;
+    max-width: 350px;
     flex-basis: 40%;
 }
 

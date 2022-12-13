@@ -21,7 +21,7 @@ a {
 h1, h1 *, h2, h2 *, button {
     margin: 0;
     font-family: 'Bungee';
-    word-break: break-all;
+    /*word-break: break-all;*/
 }
 
 h1 {
@@ -44,6 +44,8 @@ button {
     border-radius: .5em;
     margin: .5em;
     width: 6em;
+    font-size: 14pt;
+    padding: .5em;
 }
 
 button:hover {
@@ -68,4 +70,8 @@ button:hover {
     .panel {
         width: 80%;
     }   
+
+    button {
+        padding: 0;
+    }
 }

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap');
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    margin: 0;
+    padding: 0 .5em;
+    background-color: #5D737E;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h1 *, h2, h2 *, button {
+    margin: 0;
+    font-family: 'Bungee';
+    word-break: break-all;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+p {
+    margin: 0;
+    font-size: 14pt;
+}
+
+a, p {
+    font-family: 'Cormorant Infant', serif;
+}
+
+button {
+    border: none;
+    background-color: #5D737E;
+    color: #ffffff;
+    border-radius: .5em;
+    margin: .5em;
+    width: 6em;
+}
+
+button:hover {
+    background-color: #bdc9ce;
+    color: #333f46;
+}
+
+.panel {
+    width: 95%;
+    background-color: #F8F8F8;
+    margin: 1em auto;
+    border-radius: .5em;
+    padding: 1em;
+    text-align: center;
+}
+
+.panel * {
+    text-align: center;
+}
+
+@media only screen and (min-width: 1024px) {
+    .panel {
+        width: 80%;
+    }   
+}
